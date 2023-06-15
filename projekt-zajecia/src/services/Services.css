@@ -1,0 +1,117 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+.services_main{
+    background-color: green;
+
+}
+
+.services_title{
+    margin: 5vh;
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 700;
+    line-height: 80px;
+}
+
+.services_subtitle{
+    font-size: 36px;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 400;
+    line-height: 42px;
+    margin: 5vh;
+}
+
+.services_button{
+    margin: 10vh;
+    width: 260px;
+    height: 80px ;
+    font-size:  28px;
+    background-color: white;
+    border-radius: 5px;
+    border-color: transparent;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: 400;
+}
+
+.services_button:hover{
+    
+    background-color: gray;
+    scale: 1.03;
+    border-radius: 10px;
+    color:white;
+
+}
+.services_top{
+    background-color: lightgoldenrodyellow;
+    min-height: 15vh;
+
+}
+
+.services_about{
+    color:gray;
+    font-style: normal;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.services_bottom{
+    /*background-color: red;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.services_left{
+    background-color: green;
+    width: 40vw;
+}
+.services_right{
+   /* background-color: blue; */
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+}
+.services_logo1 {
+    width: 300px;
+    height: 200px;
+    margin: 0;
+    
+}
+
+.services_logo2 {
+    width: 300px;
+    height: 200px;
+    margin: 0;
+    
+}
+
+.services_logo3 {
+    width: 300px;
+    height: 200px;
+    margin: 0;
+}
+
+.services_logo4 {
+    width: 300px;
+    height: 200px;
+    margin: 0;
+}
+
+
+@media screen and (max-width:1100px){
+    .services_bottom{
+        flex-direction: column;
+    }
+}

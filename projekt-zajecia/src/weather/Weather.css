@@ -1,0 +1,37 @@
+.weather_block{
+    background-color: green;
+    padding-top: 2vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start ;
+    margin: 6vh;
+    padding: 6vw; 
+    
+}
+.weather_header{
+    font-size: 5vh;
+    padding: 1vh;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+}
+.weather_card{
+    border: 1px solid ;
+    margin: 10px auto;
+    width:400px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.weather_title{
+    font-size: 3.5vh;
+    font-weight: bold;
+    padding:10px;
+}
+.weather_params{
+    padding:10px;
+    margin-bottom:10px;
+    color:#333;
+    font-size: 2.5vh;
+}
