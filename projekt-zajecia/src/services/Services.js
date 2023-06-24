@@ -7,6 +7,9 @@ import zdjecie2 from "./biblioteka.jpg";
 import zdjecie3 from "./promocja.jpg";
 import zdjecie4 from "./sztab.jpg";
 
+import ListIcon from '@mui/icons-material/List';
+import Button from '@mui/material/Button';
+
 function Services() {
     return (
         <div className="services_main">
@@ -19,7 +22,7 @@ function Services() {
                     </Link>
 
                     <Link to="bazabsp">
-                        <button className="services_button">Baza BSP </button>
+                        <Button className="services_button"><ListIcon />Baza BSP </Button>
                     </Link>
 
                     <Link to="weather">

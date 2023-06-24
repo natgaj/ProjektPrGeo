@@ -4,6 +4,7 @@ import Home from "./home/Home";
 import Map from "./map/Map";
 import Services from "./services/Services";
 import Weather from "./weather/Weather";
+import BspReview from "./bspLib/BspReview";
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,12 @@ const router = createBrowserRouter([
     path: "/services/weather",
     element: <Weather />,
     errorElement: <h1> Nie działa </h1>,
+  },
+  {
+    path: "/services/bazabsp",
+    element: <BspReview />,
+    errorElement: <h1> Nie działa </h1>,
+
   },
 ]);
 
